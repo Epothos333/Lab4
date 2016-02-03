@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "bloody";
+    src: url("BloodLust.ttf");
+}
+
+body.container-fluid {
+	padding:0;
+}
+
+.BannerYo {
+	padding: 0;
+}
+h1 {
+	background-color: black;
+	padding: 60px 0;
+	margin: 0;
+	font-family: bloody;
+	font-size: 55px;
+	color: red;
+	text-shadow: 0 0 10px green;
+}
+
