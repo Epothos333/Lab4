@@ -43,3 +43,17 @@ footer {
 .footer {
 	display: inline;
 }
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+footer a:visited {
+	color: white;
+}
+
+footer a:hover {
+	color: white;
+	text-decoration: none;
+}
