@@ -20,3 +20,7 @@ h1 {
 	text-shadow: 0 0 10px green;
 }
 
+.waves {
+	width: 50%;
+	float:right;
+}
