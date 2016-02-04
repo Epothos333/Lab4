@@ -1,3 +1,14 @@
+.contactForm {
+	height: 400px;
+}
+
+
+@media (min-width: 1000px) {
+	body {
+		background-image: none;
+	}
+}
+
 @font-face {
     font-family: "bloody";
     src: url("BloodLust.ttf");
