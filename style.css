@@ -1,53 +1,109 @@
+#featuredArticle h1 {
+	font-family: Frosty;
+}
+#featuredArticle {
+	font-family: Grinched;
+	background-color: lightblue;
+	color: white;
+	text-shadow: 0 0 10px black;
+	border-radius: 15px;
+	border: 4px dashed white;
+	margin-left: 15px;
+	letter-spacing: 3px;
+	color: white;
+}
+
+#article1 h3{
+	font-family: Grinched;
+	font-size: 24px;
+}
+
+#article1 p {
+	font-family: Grinched;
+}
+
+#readMore {
+	font-family: Grinched;
+	text-decoration: none;
+	text-shadow: 0 0 5px black;
+}
+
+#readMore:visited {
+	color: white;
+}
+
+
+.borderz {
+	border: 2px solid black;
+	border-radius: 15px;
+	margin: 15px 0 0 0;
+	box-shadow: 10px 10px 5px #888888;
+	padding: 10px;
+}
+
+#one, #three {
+	background-color: #ef4639;
+}
+
+#two {
+	background-color: #24ee32
+}
+
 .contactForm {
 	height: 400px;
 }
 
-
-@media (min-width: 1000px) {
-	body {
-		background-image: none;
-	}
-}
-
 @font-face {
-    font-family: "bloody";
-    src: url("BloodLust.ttf");
+	font-family: "Frosty";
+	src: url("frosty.ttf");
 }
-body {
-	background: url("http://www.drodd.com/images13/scary-halloween-wallpaper17.jpg") no-repeat;
-	background-size: 100%
+@font-face {
+    font-family: "Grinched";
+    src: url("Grinched.ttf");
 }
 
-body.container-fluid {
+/*body.container-fluid {
 	padding:0;
-}
+}*/
 
 .BannerYo {
 	padding: 0;
+	padding: 50px;
+	color: #24ee32;
+	font-family: Grinched;
+	text-shadow: 0 0 5px black;
+	background-color: #ef4639;
+	border: 5px double #24ee32;
 }
-h1 {
-	background-color: black;
+.BannerYo h1 {
+	font-size: 55px;
+}
+
+/*h1,h4 {
+	background-color: lightblue;
 	padding: 60px 0;
 	margin: 0;
 	font-family: bloody;
 	font-size: 55px;
-	color: red;
+	color: white;
 	text-shadow: 0 0 10px green;
-}
+}*/
 
+.poppies {
+	float:left;
+	padding: 5px;
+	width: 50%;
+}
 .waves {
 	width: 50%;
 	float:right;
 }
-
-#article1 {
-	background-color: gray;
-	color: white;
+.waters {
+	width: 100%;
 }
-
 footer {
 	text-align: center;
-	color: lightgrey;
+	color: black;
 	font-size: 10px;
 }
 
@@ -57,14 +113,14 @@ footer {
 
 footer a {
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 
 footer a:visited {
-	color: white;
+	color: black;
 }
 
 footer a:hover {
-	color: white;
+	color: black;
 	text-decoration: none;
 }
